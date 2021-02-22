@@ -19,7 +19,8 @@
             class="{{ Route::is('companies.index') ? 'active' : '' }}">Companies</a>
         <a href="{{ route('employees.index') }}"
             class="{{ Route::is('employees.index') ? 'active' : '' }}">Employees</a>
-        <a href="/">Departments</a>
+        <a href="{{ route('departments.index') }}"
+            class="{{ Route::is('departments.index') ? 'active' : '' }}">Departments</a>
     </nav>
     @yield('content')
 </body>

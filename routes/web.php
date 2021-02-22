@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('companies', 'CompanyController@index')->name('companies.index');
+Route::get('departments', 'DepartmentController@index')->name('departments.index');
 
 Route::resource('employees', 'EmployeeController');
