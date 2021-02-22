@@ -1,0 +1,21 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+nav a {
+    color: inherit;
+    border: 2px solid transparent;
+    padding: 0.5rem;
+}
+
+nav a:hover,
+.active {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+}
