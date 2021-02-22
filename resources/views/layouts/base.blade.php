@@ -12,7 +12,7 @@
 
 <body>
     <header class="bg-light d-flex align-items-baseline border-bottom border-color-dark">
-        <h1 class="display-3 text-dark mr-3">laravel-seeds</h1>
+        <a href="/" class="display-3 text-dark mr-3">laravel-seeds</a>
     </header>
     <nav class="p-3 d-flex justify-content-around bg-dark text-white text-uppercase font-bold">
         <a href="{{ route('companies.index') }}"
