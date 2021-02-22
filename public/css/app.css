@@ -10957,3 +10957,7 @@ nav a:hover,
   border: 2px solid #fff;
 }
 
+tr:hover:not(thead > tr) {
+  color: chartreuse;
+}
+

@@ -17,7 +17,7 @@ class EmployeeSeeder extends Seeder
 
         for ($i = 0; $i < 100; $i++) {
             $newEmployee = new Employee();
-            $newEmployee->name = $faker->name();
+            $newEmployee->name = $faker->firstName();
             $newEmployee->lastname = $faker->lastName();
             $newEmployee->age = $faker->numberBetween(18, 75);
             $newEmployee->role = $faker->jobTitle();

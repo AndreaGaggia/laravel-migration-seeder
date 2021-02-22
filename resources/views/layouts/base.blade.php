@@ -15,9 +15,11 @@
         <h1 class="display-3 text-dark mr-3">laravel-seeds</h1>
     </header>
     <nav class="p-3 d-flex justify-content-around bg-dark text-white text-uppercase font-bold">
-        <a href="#">Companies</a>
-        <a href="#">Employees</a>
-        <a href="#">Departments</a>
+        <a href="{{ route('companies.index') }}"
+            class="{{ Route::is('companies.index') ? 'active' : '' }}">Companies</a>
+        <a href="{{ route('employees.index') }}"
+            class="{{ Route::is('employees.index') ? 'active' : '' }}">Employees</a>
+        <a href="/">Departments</a>
     </nav>
     @yield('content')
 </body>
